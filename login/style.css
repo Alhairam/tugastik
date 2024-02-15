@@ -1,0 +1,136 @@
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(334380641p.jpg);
+    background-size:unset;
+}
+
+body .form-login {
+   background-color: #ffff;
+   padding: 30px;
+   padding-top: 10px;
+   padding-bottom: 40px;
+   border-radius: 0px;
+}
+
+body  .form-login h3{
+    text-align: center;
+    font-size: large;
+}
+
+body  .form-login input{
+    margin-bottom: 10px;
+    width: 400px;
+    height: 40px;
+    padding-left: 20px;
+    background-color: #ffffff;
+    border-color: black;
+    border:groove;
+    border-radius: 0px;
+    font-weight: 600;
+
+}
+
+body  .form-login p{
+    text-align: right;
+    margin-top: 2px;
+    margin-bottom: 30px;
+}
+
+body  .form-login p  .link-Register-Now{
+    text-decoration: none;
+    color: rgb(68,97,98);
+    font-size: 13px;
+    font-weight: 300;
+}
+
+body  .form-login p  .link-Register-Now:hover{
+    text-decoration: none;
+    color: rgb(57,126,128);
+    font-size: 13px;
+    font-weight: 300;
+}
+
+
+body  .form-login  .tombollogin{
+    width: 100%;
+    border: 0px;
+    height: 40px;
+    border-radius: 0px;
+    background-color: rgb(83, 83, 83);
+    padding: 5px 20px;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    color: #fff;
+
+}
+
+body  .form-login  .tombollogin:hover{
+    padding: 5px 20px;
+    font-size: 12px;
+    border: none;
+    background-color: rgb(21, 37, 184);
+    border-radius: 0px;
+}
+
+
+body  .form-login hr{
+    color: #e5e9f2;
+    background-color: #e5e9f2;
+
+}
+body  .form-login p{
+    text-align: center;
+}
+body  .form-login p .masuk-daftar {
+    width: 100%;
+    border: 0px;
+    height: 40px;
+    border-radius: 0px;
+    background-color: rgb(35,31,59);
+    padding: 5px 20px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+.social-icons a{
+    width:50px;
+    height:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#0026ff;
+    margin:30px 50px;
+    border-radius:50%;
+}
+ 
+.social-icons{
+    display: flex;
+     
+}
+ 
+.social-icons i,.social i{
+    color:#000000;
+}
+ 
+.social-icons a:hover{
+    background-color:#d41515;
+    box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+    transition:all ease 0.5s;
+}
+ 
+.social-icons a:hover i,
+.social a:hover i{
+    color:#ffd900;
+    transition:all ease 0.5s;
+}
+
